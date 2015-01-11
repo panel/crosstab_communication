@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lead Form</title>
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<h1>Test Thing</h1>
+		<ul id="crosstab"></ul>
+	</div>
+
+	<script src="jspm_packages/system.js"></script>
+	<script src="config.js"></script>
+	<script>
+		System.baseURL = '/';
+		// `app` is our project name, corresponding to the local `lib` folder
+		// these two properties are set in the `jspm init -p` prompts
+		System.import('kayak/main');
+	</script>
+</body>
+</html>
